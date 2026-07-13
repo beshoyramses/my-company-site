@@ -1,14 +1,20 @@
 "use client";
 
 import { useLanguage } from "@/lib/i18n";
-import { IconMail, IconMapPin } from "@tabler/icons-react";
+import { IconMail, IconMapPin, IconPhoneCall } from "@tabler/icons-react";
 
 const contactDetails = [
   {
     title: "Email",
     titleAr: "البريد الإلكتروني",
-    value: "email@gmail.com",
+    value: "minanazer25@gmail.com",
     icon: IconMail,
+  },
+  {
+    title: "phone",
+    titleAr: "الهاتف",
+    value: "+201281737377",
+    icon: IconPhoneCall,
   },
   {
     title: "Visit",
