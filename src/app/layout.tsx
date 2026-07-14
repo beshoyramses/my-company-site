@@ -15,8 +15,10 @@ export const metadata: Metadata = {
     "El Gouna luxury services",
     "G-Cribs chalet rental",
     "marble polishing El Gouna",
+    "marble polishing in El Gouna",
     "airport transfer El Gouna",
     "premium finishing Egypt",
+    "تلميع الرخام في الجونة",
   ],
   alternates: {
     canonical: "/",

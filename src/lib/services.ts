@@ -1,3 +1,10 @@
+export interface ServiceFaq {
+  question: string;
+  questionAr?: string;
+  answer: string;
+  answerAr?: string;
+}
+
 export interface Service {
   slug: string;
   title: string;
@@ -12,6 +19,13 @@ export interface Service {
   discountAr?: string;
   images: string[];
   icon: string;
+  locationLabel?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  keywords?: string[];
+  longDescription?: string;
+  longDescriptionAr?: string;
+  faqs?: ServiceFaq[];
 }
 
 export const services: Service[] = [
@@ -48,6 +62,56 @@ export const services: Service[] = [
       "/og-images/marble-polshing (8).jpeg",
     ],
     icon: "✨",
+    locationLabel: "El Gouna",
+    seoTitle: "Marble Polishing in El Gouna | Professional Floor Restoration",
+    seoDescription:
+      "Professional marble polishing in El Gouna. Diamond honing, stain removal, and sealing for villas, hotels, and apartments in G-Cribs and Hurghada. Free quote — call +20 128 173 7377.",
+    keywords: [
+      "marble polishing El Gouna",
+      "marble polishing in El Gouna",
+      "marble restoration El Gouna",
+      "floor polishing El Gouna",
+      "marble sealing El Gouna",
+      "تلميع الرخام في الجونة",
+    ],
+    longDescription:
+      "El Gouna villas, chalets, and hotels rely on marble floors and countertops to create a premium feel — but Red Sea humidity, sand, and daily foot traffic quickly dull the shine. Our marble polishing service in El Gouna restores that mirror finish using industrial diamond abrasives, professional honing, and long-lasting sealants.\n\nWe work across El Gouna, G-Cribs, Abu Tig, Kafr El Gouna, and nearby Hurghada properties. Whether you need a single bathroom countertop refreshed or an entire villa floor restored, our team handles residential and commercial projects with minimal disruption.\n\nEvery job includes a full assessment, scratch and etch mark removal, diamond polishing, and protective sealing so your marble stays brilliant for years. Contact us today for a free on-site quote in El Gouna.",
+    longDescriptionAr:
+      "تعتمد فلل وشاليهات وفنادق الجونة على أرضيات وأسطح رخامية لإضفاء طابع فاخر، لكن رطوبة البحر الأحمر والرمال والاستخدام اليومي تسرّع من بهتان اللمعة. خدمة تلميع الرخام لدينا في الجونة تعيد اللمعان باستخدام مواد كاشطة ماسية صناعية وصقل احترافي ومواد حماية طويلة الأمد.\n\nنعمل في الجونة وG-Cribs وأبو تيج وكفر الجونة وممتلكات الغردقة القريبة. سواء كنت بحاجة إلى تجديد رخام حمام واحد أو استعادة أرضية فيلا كاملة، يتولى فريقنا المشاريع السكنية والتجارية بأقل قدر من الإزعاج.\n\nيشمل كل مشروع تقييمًا كاملاً وإزالة الخدوش والعلامات والتلميع بالماس والحماية بالـ sealing. تواصل معنا اليوم للحصول على عرض سعر مجاني في الجونة.",
+    faqs: [
+      {
+        question: "How much does marble polishing cost in El Gouna?",
+        questionAr: "كم تكلفة تلميع الرخام في الجونة؟",
+        answer:
+          "Pricing depends on the area size, marble condition, and whether honing or sealing is required. We provide free on-site quotes across El Gouna and G-Cribs — contact us at +20 128 173 7377 for an accurate estimate.",
+        answerAr:
+          "تعتمد التكلفة على مساحة السطح وحالة الرخام وما إذا كان الصقل أو الـ sealing مطلوبًا. نقدم عروض أسعار مجانية في موقعك في الجونة وG-Cribs — تواصل معنا على +20 128 173 7377.",
+      },
+      {
+        question: "How long does marble polishing take?",
+        questionAr: "كم يستغرق تلميع الرخام؟",
+        answer:
+          "A typical villa living area takes one to two days including honing, polishing, and sealing. Smaller surfaces like bathroom countertops can often be completed in a few hours.",
+        answerAr:
+          "تستغرق صالة فيلا نموذجية من يوم إلى يومين تشمل الصقل والتلميع والحماية. الأسطح الأصغر مثل رخام الحمامات يمكن إنجازها غالبًا في بضع ساعات.",
+      },
+      {
+        question: "Do you serve G-Cribs and Hurghada as well as El Gouna?",
+        questionAr: "هل تخدمون G-Cribs والغردقة بالإضافة إلى الجونة؟",
+        answer:
+          "Yes. We provide marble polishing throughout El Gouna, G-Cribs, Abu Tig, and Hurghada. Our team travels to your property for assessment and service.",
+        answerAr:
+          "نعم. نقدم تلميع الرخام في جميع أنحاء الجونة وG-Cribs وأبو تيج والغردقة. يتنقل فريقنا إلى ممتلكاتك للتقييم والخدمة.",
+      },
+      {
+        question: "What is included in your marble polishing service?",
+        questionAr: "ماذا يتضمن خدمة تلميع الرخام لديكم؟",
+        answer:
+          "Every service includes surface assessment, scratch and stain removal, diamond honing and polishing, and a protective sealant application. We work on floors, stairs, countertops, and bathroom marble.",
+        answerAr:
+          "تشمل كل خدمة تقييم السطح وإزالة الخدوش والبقع والصقل والتلميع بالماس وتطبيق مادة حماية. نعمل على الأرضيات والسلالم وأسطح المطبخ والرخام في الحمامات.",
+      },
+    ],
   },
   {
     slug: "chalet-rent-weekly-discount",

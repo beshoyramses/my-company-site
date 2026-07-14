@@ -41,7 +41,7 @@ export default async function sitemap() {
     url: `${BASE_URL}/services/${service.slug}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
-    priority: service.slug === "marble-polishing" ? 0.92 : 0.85,
+    priority: service.slug === "marble-polishing" ? 0.98 : 0.85,
   }));
 
   const blogUrls = blogPosts.map((post) => ({

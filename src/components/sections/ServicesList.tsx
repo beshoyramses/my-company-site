@@ -51,7 +51,11 @@ export default function ServicesList() {
                 <div className="relative h-[240px] overflow-hidden rounded-[calc(2rem-1px)]">
                   <Image
                     src={service.images[0]}
-                    alt={service.title}
+                    alt={
+                      service.slug === "marble-polishing"
+                        ? "Marble polishing in El Gouna"
+                        : service.title
+                    }
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                     sizes="(max-width: 768px) 100vw, 33vw"

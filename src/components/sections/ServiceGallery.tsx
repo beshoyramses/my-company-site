@@ -27,7 +27,7 @@ export function ServiceGallery({ images, title }: ServiceGalleryProps) {
       <div className="group relative min-h-[420px] overflow-hidden rounded-[1.95rem] border border-white/10 bg-[#05030a] shadow-[0_35px_110px_rgba(0,0,0,0.4)] sm:min-h-[560px]">
         <Image
           src={displayImages[activeIndex]}
-          alt={`${title} gallery ${activeIndex + 1}`}
+          alt={`${title} in El Gouna — photo ${activeIndex + 1}`}
           fill
           priority={activeIndex === 0}
           className="object-cover transition-transform duration-700 group-hover:scale-105"
