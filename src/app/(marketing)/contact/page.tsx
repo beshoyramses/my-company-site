@@ -31,7 +31,7 @@ export default function ContactPage() {
     <div className="section-shell pb-20 pt-32 sm:pt-36">
       <div className="mx-auto max-w-3xl rounded-[2rem] border border-white/10 bg-[#06040c]/80 p-8 shadow-[0_24px_80px_rgba(0,0,0,0.3)] sm:p-10">
         <p className="mb-3 text-center text-sm font-semibold uppercase tracking-[0.32em] text-violet-200">
-          {isArabic ? "تواصل مع NEXUS" : "Contact NEXUS"}
+          {isArabic ? "تواصل مع Sunny" : "Contact Sunny"}
         </p>
         <h1 className="mb-4 text-center font-display text-4xl font-semibold text-white sm:text-5xl">
           {isArabic ? (

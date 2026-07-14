@@ -10,7 +10,7 @@ import { IconMenu2, IconX } from "@tabler/icons-react";
 const navItems = [
   { label: "Home", labelAr: "الرئيسية", href: "/" },
   { label: "Services", labelAr: "الخدمات", href: "/services" },
-  { label: "About", labelAr: "عن NEXUS", href: "/about" },
+  { label: "About", labelAr: "عن Sunny", href: "/about" },
   { label: "Blog", labelAr: "المدونة", href: "/blog" },
   { label: "Contact", labelAr: "تواصل", href: "/contact" },
 ];
@@ -66,7 +66,7 @@ export default function Header() {
           </div>
           <div>
             <p className="font-display text-sm font-semibold tracking-[0.28em] text-white/90">
-              NEXUS
+              Sunny
             </p>
             <p className="text-[10px] uppercase tracking-[0.45em] text-zinc-500">
               Luxury services

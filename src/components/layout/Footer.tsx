@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="section-shell flex flex-col gap-4 py-10 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
         <div>
           <p className="font-display text-lg font-semibold text-white">
-            NEXUS Luxury Services
+            Sunny Luxury Services
           </p>
           <p className="mt-2 text-sm text-zinc-500">
             {isArabic
@@ -33,8 +33,8 @@ export default function Footer() {
         </div>
         <p className="text-sm text-zinc-500">
           {isArabic
-            ? `© ${new Date().getFullYear()} NEXUS. مصمم بعناية.`
-            : `© ${new Date().getFullYear()} NEXUS. Crafted with intention.`}
+            ? `© ${new Date().getFullYear()} Sunny. مصمم بعناية.`
+            : `© ${new Date().getFullYear()} Sunny. Crafted with intention.`}
         </p>
       </div>
     </footer>
