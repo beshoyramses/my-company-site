@@ -250,8 +250,8 @@ For professional marble maintenance in El Gouna, contact Sunny Luxury Services. 
   {
     slug: 'marble-care-tips',
     title: 'Marble Care Tips: Expert Advice for Long-Lasting Beauty',
-    excerpt: 'Expert marble care tips from professionals. Learn dos and don'ts, preventive measures, and insider secrets for maintaining beautiful marble surfaces.',
-    seoDescription: 'Expert marble care tips for maintaining beautiful marble surfaces in El Gouna. Learn professional dos and don'ts, preventive measures, and insider secrets.',
+    excerpt: 'Expert marble care tips from professionals. Learn dos and donts, preventive measures, and insider secrets for maintaining beautiful marble surfaces.',
+    seoDescription: 'Expert marble care tips for maintaining beautiful marble surfaces in El Gouna. Learn professional dos and donts, preventive measures, and insider secrets.',
     keywords: [
       'marble care tips',
       'marble dos and donts',
