@@ -35,6 +35,30 @@ export default async function sitemap() {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${BASE_URL}/locations`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/problems`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${BASE_URL}/properties`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${BASE_URL}/materials`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
 
   const serviceUrls = services.map((service) => ({
@@ -51,5 +75,73 @@ export default async function sitemap() {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...serviceUrls, ...blogUrls];
+  const locationUrls = [
+    "el-gouna",
+    "hurghada",
+    "sahl-hasheesh",
+    "makadi-bay",
+    "soma-bay",
+    "safaga",
+  ].map((slug) => ({
+    url: `${BASE_URL}/locations/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: slug === "el-gouna" ? 0.95 : 0.85,
+  }));
+
+  const problemUrls = [
+    "scratched-marble-repair",
+    "dull-marble-floor",
+    "marble-stain-removal",
+    "marble-etching-repair",
+    "marble-crack-repair",
+    "chipped-marble-repair",
+  ].map((slug) => ({
+    url: `${BASE_URL}/problems/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  const propertyUrls = [
+    "hotel-marble-polishing",
+    "villa-marble-polishing",
+    "apartment-marble-polishing",
+    "office-marble-polishing",
+    "restaurant-marble-polishing",
+    "hospital-marble-polishing",
+    "showroom-marble-polishing",
+    "airbnb-marble-polishing",
+  ].map((slug) => ({
+    url: `${BASE_URL}/properties/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  const materialUrls = [
+    "white-marble-polishing",
+    "carrara-marble-polishing",
+    "crema-marfil-polishing",
+    "egyptian-marble-polishing",
+    "limestone-polishing",
+    "terrazzo-floor-polishing",
+    "granite-countertop-polishing",
+    "travertine-restoration",
+  ].map((slug) => ({
+    url: `${BASE_URL}/materials/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.75,
+  }));
+
+  return [
+    ...staticPages,
+    ...serviceUrls,
+    ...blogUrls,
+    ...locationUrls,
+    ...problemUrls,
+    ...propertyUrls,
+    ...materialUrls,
+  ];
 }

@@ -1,23 +1,35 @@
 import "./globals.css";
 import { inter, spaceGrotesk } from "@/lib/fonts";
 import { Providers } from "./providers";
+import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://g-cribs.com"),
   title: {
-    default: "Sunny Luxury Services | El Gouna & G-Cribs",
+    default: "Marble Polishing El Gouna | Professional Floor Restoration Services",
     template: "%s | Sunny Luxury Services",
   },
   description:
-    "Luxury marble polishing, chalet rentals, airport transfers, and premium finishing services in El Gouna and G-Cribs.",
+    "Professional marble polishing in El Gouna and Hurghada. Diamond honing, stain removal, and sealing for villas, hotels, and apartments. Free quote +20 128 173 7377.",
   keywords: [
-    "El Gouna luxury services",
-    "G-Cribs chalet rental",
     "marble polishing El Gouna",
     "marble polishing in El Gouna",
-    "airport transfer El Gouna",
-    "premium finishing Egypt",
+    "marble restoration El Gouna",
+    "marble floor polishing",
+    "marble polishing service",
+    "marble polishing company",
+    "marble cleaning El Gouna",
+    "granite polishing El Gouna",
+    "stone polishing Hurghada",
+    "marble sealing",
+    "marble crystallization",
+    "natural stone polishing",
+    "remove marble scratches",
+    "marble stain removal",
+    "restore marble shine",
+    "hotel marble polishing",
+    "villa marble polishing",
     "تلميع الرخام في الجونة",
   ],
   alternates: {
@@ -60,6 +72,9 @@ export default function RootLayout({
       suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable}`}
     >
+      <head>
+        <LocalBusinessJsonLd />
+      </head>
       <body className="min-h-screen bg-transparent font-sans antialiased">
         <Providers>{children}</Providers>
       </body>

@@ -1,6 +1,7 @@
 "use client";
 
 import { ServiceGallery } from "@/components/sections/ServiceGallery";
+import { MarbleInternalLinks } from "@/components/sections/MarbleInternalLinks";
 import { useLanguage } from "@/lib/i18n";
 import type { Service } from "@/lib/services";
 import { IconArrowRight, IconCheck, IconSparkles } from "@tabler/icons-react";
@@ -83,6 +84,12 @@ export function ServiceDetailContent({ service }: { service: Service }) {
             {discount && (
               <div className="mt-6 inline-flex rounded-full border border-violet-400/30 bg-violet-500/12 px-4 py-2 text-sm font-medium text-violet-100">
                 ✦ {discount}
+              </div>
+            )}
+
+            {service.slug === "marble-polishing" && (
+              <div className="mt-8">
+                <MarbleInternalLinks />
               </div>
             )}
           </div>

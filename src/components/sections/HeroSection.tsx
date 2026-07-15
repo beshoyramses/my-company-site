@@ -102,15 +102,15 @@ export default function Hero() {
           </div>
 
           <h1 className="mb-7 font-display text-5xl font-semibold leading-[0.92] text-white sm:text-6xl md:text-8xl">
-            {isArabic ? "حيث تلتقي الخدمة المميزة" : "Where premium service"}
+            {isArabic ? "تلميع الرخام في الجونة" : "Marble Polishing in El Gouna"}
             <span className="gradient-text block text-glow">
-              {isArabic ? "بالهدوء المتقدم." : "meets futuristic calm."}
+              {isArabic ? "خدمة احترافية للرخام" : "Professional Stone Restoration"}
             </span>
           </h1>
           <p className="mx-auto mb-10 max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
             {isArabic
-              ? "تلميع الرخام، وإقامات الشاليهات، ونقل المطار، وتشطيب دقيق يُقدَّم بوجود رقمي أنيق وناعم مثل المخمل."
-              : "Marble polishing, chalet stays, airport transfers, and meticulous finishing delivered with a velvet-smooth digital presence."}
+              ? "تلميع الرخام بالألماس، وإزالة البقع والخدوش، وترميم الرخام للفلل والفنادق في الجونة والغردقة. خدمة احترافية مع ضمان الجودة."
+              : "Diamond marble polishing, stain removal, and scratch repair for villas, hotels, and apartments in El Gouna and Hurghada. Professional restoration with guaranteed quality."}
           </p>
 
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
