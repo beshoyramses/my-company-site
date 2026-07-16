@@ -52,6 +52,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  other: {
+    "application-name": "Sunny El Gouna",
+  },
   twitter: {
     card: "summary_large_image",
     title: "Sunny Luxury Services | El Gouna & G-Cribs",
