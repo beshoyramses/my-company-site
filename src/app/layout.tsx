@@ -5,11 +5,12 @@ import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://g-cribs.com"),
+  metadataBase: new URL("https://sunnyelgouna.vercel.app/"),
   title: {
     default: "Marble Polishing El Gouna | Professional Floor Restoration Services",
     template: "%s | Sunny Luxury Services",
   },
+  applicationName: "Sunny Luxury Services",
   description:
     "Professional marble polishing in El Gouna and Hurghada. Diamond honing, stain removal, and sealing for villas, hotels, and apartments. Free quote +20 128 173 7377.",
   keywords: [
@@ -51,9 +52,6 @@ export const metadata: Metadata = {
         alt: "Sunny Luxury Services in El Gouna",
       },
     ],
-  },
-  other: {
-    "application-name": "Sunny El Gouna",
   },
   twitter: {
     card: "summary_large_image",
