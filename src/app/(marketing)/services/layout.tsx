@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Luxury Services in El Gouna — Marble Polishing, Chalets & More",
     description:
       "Marble restoration, chalet stays, airport transfers, and finishing services along the Red Sea.",
-    url: "https://g-cribs.com/services",
+    url: "https://sunnyelgouna.vercel.app/services",
   },
 };
 

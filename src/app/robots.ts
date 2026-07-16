@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://g-cribs.com/sitemap.xml",
+    sitemap: "https://sunnyelgouna.vercel.app/sitemap.xml",
   };
 }
