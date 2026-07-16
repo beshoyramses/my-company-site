@@ -1,7 +1,7 @@
 import { services } from "@/lib/services";
 import { blogPosts } from "@/lib/blog";
 
-const BASE_URL = "https://g-cribs.com";
+const BASE_URL = "https://sunnyelgouna.vercel.app";
 
 export default async function sitemap() {
   const staticPages = [
