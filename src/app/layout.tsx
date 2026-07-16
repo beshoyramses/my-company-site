@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_EG",
-    url: "https://g-cribs.com",
+    url: "https://sunnyelgouna.vercel.app/",
     siteName: "Sunny Luxury Services",
     title: "Sunny Luxury Services | El Gouna & G-Cribs",
     description:
