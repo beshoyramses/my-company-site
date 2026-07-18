@@ -3,7 +3,7 @@ import { inter, spaceGrotesk } from "@/lib/fonts";
 import { Providers } from "./providers";
 import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
-
+import { Analytics } from "@vercel/analytics/next"
 export const metadata: Metadata = {
   metadataBase: new URL("https://sunnyelgouna.vercel.app/"),
   title: {
@@ -77,7 +77,10 @@ export default function RootLayout({
         <LocalBusinessJsonLd />
       </head>
       <body className="min-h-screen bg-transparent font-sans antialiased">
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+          <Analytics />
+          </Providers>
       </body>
     </html>
   );
