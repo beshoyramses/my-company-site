@@ -5,7 +5,7 @@ import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
-  metadataBase: new URL("https://new cityelgouna.vercel.app/"),
+  metadataBase: new URL("https://sunnyelgouna.vercel.app/"),
   title: {
     default:
       "Marble Polishing El Gouna | Professional Floor Restoration Services",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_EG",
-    url: "https://new cityelgouna.vercel.app/",
+    url: "https://sunnyelgouna.vercel.app/",
     siteName: "new city Luxury Services",
     title: "new city Luxury Services | El Gouna & G-Cribs",
     description:
