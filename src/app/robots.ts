@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://sunnyelgouna.vercel.app/sitemap.xml",
+    sitemap: "https://new cityelgouna.vercel.app/sitemap.xml",
   };
 }

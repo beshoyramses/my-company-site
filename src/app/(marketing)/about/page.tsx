@@ -9,7 +9,7 @@ export default function AboutPage() {
     <div className="section-shell pb-20 pt-32 text-center sm:pt-36">
       <div className="mx-auto max-w-3xl rounded-[2rem] border border-white/10 bg-[#06040c]/80 p-8 shadow-[0_24px_80px_rgba(0,0,0,0.3)] sm:p-12">
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.32em] text-violet-200">
-          {isArabic ? "عن SUNNY" : "About Sunny"}
+          {isArabic ? "عن new city" : "About new city"}
         </p>
         <h1 className="mb-6 font-display text-4xl font-semibold text-white sm:text-5xl">
           {isArabic ? (

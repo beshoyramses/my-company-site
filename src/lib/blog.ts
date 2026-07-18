@@ -11,15 +11,16 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: 'why-marble-polishing-matters',
-    title: 'Marble Polishing in El Gouna: Why It Matters for Your Property',
-    excerpt: 'Discover how professional diamond polishing restores marble floors in El Gouna villas and increases property value.',
+    slug: "why-marble-polishing-matters",
+    title: "Marble Polishing in El Gouna: Why It Matters for Your Property",
+    excerpt:
+      "Discover how professional diamond polishing restores marble floors in El Gouna villas and increases property value.",
     seoDescription:
-      'Learn why professional marble polishing in El Gouna protects your investment, removes scratches and stains, and keeps floors looking showroom-new.',
+      "Learn why professional marble polishing in El Gouna protects your investment, removes scratches and stains, and keeps floors looking showroom-new.",
     keywords: [
-      'marble polishing El Gouna',
-      'marble restoration El Gouna',
-      'floor polishing Red Sea',
+      "marble polishing El Gouna",
+      "marble restoration El Gouna",
+      "floor polishing Red Sea",
     ],
     content: `Marble floors are a signature feature of El Gouna homes, hotels, and chalets — but the Red Sea climate takes a toll. Sand tracked indoors, humidity, and daily foot traffic gradually dull the surface, leaving scratches, etch marks, and stains that no regular mopping can fix.
 
@@ -27,20 +28,22 @@ Professional marble polishing in El Gouna uses industrial diamond abrasives to g
 
 For property owners in G-Cribs, Abu Tig, and Kafr El Gouna, polished marble is more than cosmetic. Well-maintained floors increase rental appeal, reduce long-term replacement costs, and create the premium first impression guests expect from a Red Sea luxury property.
 
-If your marble has lost its shine, contact Sunny Luxury Services for a free on-site assessment in El Gouna. We handle everything from bathroom countertops to full villa floor restoration.`,
-    createdAt: new Date('2026-06-01'),
-    updatedAt: new Date('2026-07-14'),
+If your marble has lost its shine, contact new city Luxury Services for a free on-site assessment in El Gouna. We handle everything from bathroom countertops to full villa floor restoration.`,
+    createdAt: new Date("2026-06-01"),
+    updatedAt: new Date("2026-07-14"),
   },
   {
-    slug: 'how-to-polish-marble-floors',
-    title: 'How to Polish Marble Floors: Complete Guide',
-    excerpt: 'Step-by-step guide to polishing marble floors, from preparation to finishing. Learn professional techniques for DIY or when to hire experts.',
-    seoDescription: 'Complete guide on how to polish marble floors. Learn professional techniques, tools needed, and when to call experts for marble floor polishing in El Gouna.',
+    slug: "how-to-polish-marble-floors",
+    title: "How to Polish Marble Floors: Complete Guide",
+    excerpt:
+      "Step-by-step guide to polishing marble floors, from preparation to finishing. Learn professional techniques for DIY or when to hire experts.",
+    seoDescription:
+      "Complete guide on how to polish marble floors. Learn professional techniques, tools needed, and when to call experts for marble floor polishing in El Gouna.",
     keywords: [
-      'how to polish marble floors',
-      'marble floor polishing guide',
-      'DIY marble polishing',
-      'professional marble polishing',
+      "how to polish marble floors",
+      "marble floor polishing guide",
+      "DIY marble polishing",
+      "professional marble polishing",
     ],
     content: `Polishing marble floors requires understanding the stone's properties and using the right techniques. While professional polishing delivers the best results, understanding the process helps you maintain your marble between professional treatments.
 
@@ -50,19 +53,21 @@ For DIY maintenance, start with thorough cleaning to remove dirt and debris. Use
 
 However, for deep scratches, extensive etching, or overall dullness, professional diamond polishing is recommended. Professional equipment and expertise ensure consistent results without damaging the stone. In El Gouna's climate, professional sealing is especially important to protect against humidity and salt air.
 
-Contact Sunny Luxury Services for professional marble floor polishing in El Gouna. We provide free assessments and transparent pricing for all marble restoration needs.`,
-    createdAt: new Date('2026-06-05'),
+Contact new city Luxury Services for professional marble floor polishing in El Gouna. We provide free assessments and transparent pricing for all marble restoration needs.`,
+    createdAt: new Date("2026-06-05"),
   },
   {
-    slug: 'how-often-should-marble-be-polished',
-    title: 'How Often Should Marble Be Polished? Maintenance Schedule',
-    excerpt: 'Learn the ideal marble polishing frequency for homes and businesses in El Gouna. Factors that affect maintenance schedules and signs your marble needs attention.',
-    seoDescription: 'Discover how often marble should be polished in El Gouna homes and hotels. Learn maintenance schedules and signs that your marble needs professional polishing.',
+    slug: "how-often-should-marble-be-polished",
+    title: "How Often Should Marble Be Polished? Maintenance Schedule",
+    excerpt:
+      "Learn the ideal marble polishing frequency for homes and businesses in El Gouna. Factors that affect maintenance schedules and signs your marble needs attention.",
+    seoDescription:
+      "Discover how often marble should be polished in El Gouna homes and hotels. Learn maintenance schedules and signs that your marble needs professional polishing.",
     keywords: [
-      'how often should marble be polished',
-      'marble maintenance schedule',
-      'marble polishing frequency',
-      'marble care timeline',
+      "how often should marble be polished",
+      "marble maintenance schedule",
+      "marble polishing frequency",
+      "marble care timeline",
     ],
     content: `The frequency of marble polishing depends on several factors including foot traffic, usage patterns, and environmental conditions. In El Gouna's climate, marble typically needs professional attention every 1-3 years for residential properties and every 6-12 months for high-traffic commercial spaces.
 
@@ -72,19 +77,21 @@ Signs your marble needs polishing include visible scratches, dull or hazy appear
 
 Regular maintenance extends the time between professional polishing. Use pH-neutral cleaners, wipe spills immediately, use furniture pads, and avoid dragging heavy objects. Place mats at entrances to reduce sand and grit tracked onto marble floors.
 
-For a professional assessment of your marble's condition in El Gouna, contact Sunny Luxury Services. We evaluate your specific situation and recommend the appropriate maintenance schedule.`,
-    createdAt: new Date('2026-06-10'),
+For a professional assessment of your marble's condition in El Gouna, contact new city Luxury Services. We evaluate your specific situation and recommend the appropriate maintenance schedule.`,
+    createdAt: new Date("2026-06-10"),
   },
   {
-    slug: 'marble-polishing-cost',
-    title: 'Marble Polishing Cost Guide: Prices for El Gouna & Hurghada',
-    excerpt: 'Understanding marble polishing costs in Egypt. Factors that affect pricing, typical price ranges, and how to get accurate quotes for your project.',
-    seoDescription: 'Complete guide to marble polishing costs in El Gouna and Hurghada. Learn pricing factors, typical ranges, and how to get accurate quotes for marble restoration.',
+    slug: "marble-polishing-cost",
+    title: "Marble Polishing Cost Guide: Prices for El Gouna & Hurghada",
+    excerpt:
+      "Understanding marble polishing costs in Egypt. Factors that affect pricing, typical price ranges, and how to get accurate quotes for your project.",
+    seoDescription:
+      "Complete guide to marble polishing costs in El Gouna and Hurghada. Learn pricing factors, typical ranges, and how to get accurate quotes for marble restoration.",
     keywords: [
-      'marble polishing cost',
-      'marble restoration price',
-      'marble floor polishing cost',
-      'affordable marble polishing',
+      "marble polishing cost",
+      "marble restoration price",
+      "marble floor polishing cost",
+      "affordable marble polishing",
     ],
     content: `Marble polishing costs vary based on several factors including the area size, marble condition, finish level desired, and location. In El Gouna and Hurghada, professional marble polishing typically ranges from 150-400 EGP per square meter, depending on the complexity of the job.
 
@@ -94,19 +101,21 @@ Additional services like crack repair, chip filling, and stain removal may cost 
 
 To get an accurate quote, schedule a free on-site assessment. A professional can evaluate the marble's condition, measure the area, and provide a detailed price breakdown. Be wary of quotes given over the phone without seeing the actual condition.
 
-Sunny Luxury Services provides free, no-obligation quotes for marble polishing in El Gouna and Hurghada. Contact us at +20 128 173 7377 for an accurate assessment and transparent pricing.`,
-    createdAt: new Date('2026-06-15'),
+new city Luxury Services provides free, no-obligation quotes for marble polishing in El Gouna and Hurghada. Contact us at +20 128 173 7377 for an accurate assessment and transparent pricing.`,
+    createdAt: new Date("2026-06-15"),
   },
   {
-    slug: 'marble-polishing-vs-crystallization',
-    title: 'Marble Polishing vs Crystallization: Which is Better?',
-    excerpt: 'Compare marble polishing and crystallization methods. Learn the differences, pros and cons, and which method is best for your marble surfaces.',
-    seoDescription: 'Understand the difference between marble polishing and crystallization. Compare methods, benefits, and find the best approach for your marble in El Gouna.',
+    slug: "marble-polishing-vs-crystallization",
+    title: "Marble Polishing vs Crystallization: Which is Better?",
+    excerpt:
+      "Compare marble polishing and crystallization methods. Learn the differences, pros and cons, and which method is best for your marble surfaces.",
+    seoDescription:
+      "Understand the difference between marble polishing and crystallization. Compare methods, benefits, and find the best approach for your marble in El Gouna.",
     keywords: [
-      'marble polishing vs crystallization',
-      'marble crystallization',
-      'diamond marble polishing',
-      'marble restoration methods',
+      "marble polishing vs crystallization",
+      "marble crystallization",
+      "diamond marble polishing",
+      "marble restoration methods",
     ],
     content: `Marble polishing and crystallization are two different methods for restoring marble surfaces, each with distinct advantages and applications. Understanding the differences helps you choose the right method for your specific needs.
 
@@ -118,19 +127,21 @@ For marble with significant damage, deep scratches, or uneven wear, diamond poli
 
 In El Gouna's climate, diamond polishing with proper sealing typically provides the best long-term value. The harsh sun and humidity can break down crystallized surfaces more quickly.
 
-Sunny Luxury Services specializes in diamond marble polishing for lasting results. Contact us to discuss the best approach for your marble surfaces.`,
-    createdAt: new Date('2026-06-20'),
+new city Luxury Services specializes in diamond marble polishing for lasting results. Contact us to discuss the best approach for your marble surfaces.`,
+    createdAt: new Date("2026-06-20"),
   },
   {
-    slug: 'best-marble-sealer',
-    title: 'Best Marble Sealer: Top Picks for El Gouna Climate',
-    excerpt: 'Guide to choosing the best marble sealer for Egypt\'s climate. Types of sealers, application tips, and recommendations for long-lasting protection.',
-    seoDescription: 'Discover the best marble sealers for El Gouna\'s climate. Learn about sealer types, application methods, and how to protect your marble from humidity and stains.',
+    slug: "best-marble-sealer",
+    title: "Best Marble Sealer: Top Picks for El Gouna Climate",
+    excerpt:
+      "Guide to choosing the best marble sealer for Egypt's climate. Types of sealers, application tips, and recommendations for long-lasting protection.",
+    seoDescription:
+      "Discover the best marble sealers for El Gouna's climate. Learn about sealer types, application methods, and how to protect your marble from humidity and stains.",
     keywords: [
-      'best marble sealer',
-      'marble sealing products',
-      'marble protection',
-      'marble sealer for humid climate',
+      "best marble sealer",
+      "marble sealing products",
+      "marble protection",
+      "marble sealer for humid climate",
     ],
     content: `Choosing the right marble sealer is crucial for protecting your investment, especially in El Gouna's humid climate. A quality sealer prevents staining, makes cleaning easier, and extends the time between polishing treatments.
 
@@ -142,19 +153,21 @@ Proper application is essential for sealer performance. The marble must be compl
 
 Sealers typically last 1-3 years depending on traffic and maintenance. Test your sealer periodically by placing water droplets on the surface—if the water absorbs rather than beading, it's time to reseal.
 
-For professional marble sealing in El Gouna, contact Sunny Luxury Services. We use premium sealers specifically chosen for Egypt's climate.`,
-    createdAt: new Date('2026-06-25'),
+For professional marble sealing in El Gouna, contact new city Luxury Services. We use premium sealers specifically chosen for Egypt's climate.`,
+    createdAt: new Date("2026-06-25"),
   },
   {
-    slug: 'can-scratched-marble-be-repaired',
-    title: 'Can Scratched Marble Be Repaired? Complete Repair Guide',
-    excerpt: 'Learn whether scratched marble can be repaired and the methods used. From minor scratches to deep damage, discover restoration options for your marble.',
-    seoDescription: 'Complete guide to repairing scratched marble. Learn about different scratch types, repair methods, and when to call professionals for marble restoration.',
+    slug: "can-scratched-marble-be-repaired",
+    title: "Can Scratched Marble Be Repaired? Complete Repair Guide",
+    excerpt:
+      "Learn whether scratched marble can be repaired and the methods used. From minor scratches to deep damage, discover restoration options for your marble.",
+    seoDescription:
+      "Complete guide to repairing scratched marble. Learn about different scratch types, repair methods, and when to call professionals for marble restoration.",
     keywords: [
-      'can scratched marble be repaired',
-      'marble scratch repair',
-      'fix scratched marble',
-      'marble restoration',
+      "can scratched marble be repaired",
+      "marble scratch repair",
+      "fix scratched marble",
+      "marble restoration",
     ],
     content: `Yes, scratched marble can be repaired—the method depends on the scratch depth and extent of damage. Understanding the type of scratch helps determine the appropriate repair approach.
 
@@ -166,19 +179,21 @@ Deep scratches that you can feel with your fingernail may require more extensive
 
 Prevention is always better than repair. Use furniture pads, avoid dragging heavy objects, place mats at entrances, and clean regularly to prevent scratches from dirt and grit.
 
-For professional scratch repair in El Gouna, contact Sunny Luxury Services. We assess the damage and recommend the most effective repair method.`,
-    createdAt: new Date('2026-07-01'),
+For professional scratch repair in El Gouna, contact new city Luxury Services. We assess the damage and recommend the most effective repair method.`,
+    createdAt: new Date("2026-07-01"),
   },
   {
-    slug: 'how-to-remove-stains-from-marble',
-    title: 'How to Remove Stains from Marble: Stain Removal Guide',
-    excerpt: 'Complete guide to removing different types of marble stains. Learn techniques for wine, coffee, oil, rust, and water stains on marble surfaces.',
-    seoDescription: 'Learn how to remove stains from marble floors and countertops. Expert techniques for wine, coffee, oil, rust, and water stain removal in El Gouna.',
+    slug: "how-to-remove-stains-from-marble",
+    title: "How to Remove Stains from Marble: Stain Removal Guide",
+    excerpt:
+      "Complete guide to removing different types of marble stains. Learn techniques for wine, coffee, oil, rust, and water stains on marble surfaces.",
+    seoDescription:
+      "Learn how to remove stains from marble floors and countertops. Expert techniques for wine, coffee, oil, rust, and water stain removal in El Gouna.",
     keywords: [
-      'how to remove stains from marble',
-      'marble stain removal',
-      'remove wine stains marble',
-      'marble cleaning guide',
+      "how to remove stains from marble",
+      "marble stain removal",
+      "remove wine stains marble",
+      "marble cleaning guide",
     ],
     content: `Removing stains from marble requires identifying the stain type and using the appropriate removal method. Different stains require different approaches, and using the wrong technique can make the stain worse or damage the stone.
 
@@ -192,19 +207,21 @@ Water stains and etch marks from acidic spills are not true stains but surface d
 
 Prevention is key—wipe spills immediately, use coasters, and apply a quality sealer. For stubborn stains or if you're unsure about the stain type, consult a professional.
 
-Sunny Luxury Services provides professional stain removal and marble restoration in El Gouna. Contact us for expert stain assessment and removal.`,
-    createdAt: new Date('2026-07-05'),
+new city Luxury Services provides professional stain removal and marble restoration in El Gouna. Contact us for expert stain assessment and removal.`,
+    createdAt: new Date("2026-07-05"),
   },
   {
-    slug: 'how-to-clean-marble-floors',
-    title: 'How to Clean Marble Floors: Daily Care Guide',
-    excerpt: 'Learn the proper way to clean marble floors without damaging them. Daily cleaning routines, best cleaners to use, and common mistakes to avoid.',
-    seoDescription: 'Complete guide to cleaning marble floors safely. Learn daily care routines, best cleaning products, and mistakes to avoid for marble maintenance in El Gouna.',
+    slug: "how-to-clean-marble-floors",
+    title: "How to Clean Marble Floors: Daily Care Guide",
+    excerpt:
+      "Learn the proper way to clean marble floors without damaging them. Daily cleaning routines, best cleaners to use, and common mistakes to avoid.",
+    seoDescription:
+      "Complete guide to cleaning marble floors safely. Learn daily care routines, best cleaning products, and mistakes to avoid for marble maintenance in El Gouna.",
     keywords: [
-      'how to clean marble floors',
-      'marble floor cleaning',
-      'marble maintenance',
-      'marble care tips',
+      "how to clean marble floors",
+      "marble floor cleaning",
+      "marble maintenance",
+      "marble care tips",
     ],
     content: `Proper marble floor cleaning is essential for maintaining its beauty and extending the time between professional polishing. Using the wrong cleaning methods can damage the stone and create problems that require professional restoration.
 
@@ -218,19 +235,21 @@ For spills, wipe them immediately rather than letting them sit. Place mats at en
 
 Weekly deep cleaning with a marble-specific cleaner helps maintain the surface between professional polishing. Monthly polishing with a marble polishing powder can help maintain the shine on well-maintained floors.
 
-For professional marble cleaning and polishing in El Gouna, contact Sunny Luxury Services.`,
-    createdAt: new Date('2026-07-10'),
+For professional marble cleaning and polishing in El Gouna, contact new city Luxury Services.`,
+    createdAt: new Date("2026-07-10"),
   },
   {
-    slug: 'marble-maintenance-guide',
-    title: 'Marble Maintenance Guide: Complete Care Instructions',
-    excerpt: 'Comprehensive marble maintenance guide for homeowners and businesses. Daily care, periodic maintenance, and when to schedule professional polishing.',
-    seoDescription: 'Complete marble maintenance guide for El Gouna properties. Learn daily care routines, periodic maintenance tasks, and when to schedule professional marble polishing.',
+    slug: "marble-maintenance-guide",
+    title: "Marble Maintenance Guide: Complete Care Instructions",
+    excerpt:
+      "Comprehensive marble maintenance guide for homeowners and businesses. Daily care, periodic maintenance, and when to schedule professional polishing.",
+    seoDescription:
+      "Complete marble maintenance guide for El Gouna properties. Learn daily care routines, periodic maintenance tasks, and when to schedule professional marble polishing.",
     keywords: [
-      'marble maintenance guide',
-      'marble care tips',
-      'marble floor maintenance',
-      'marble preservation',
+      "marble maintenance guide",
+      "marble care tips",
+      "marble floor maintenance",
+      "marble preservation",
     ],
     content: `A comprehensive marble maintenance routine combines daily care, periodic maintenance, and professional restoration to keep your marble looking its best. Following a consistent maintenance schedule extends the life of your marble and reduces the need for expensive restoration.
 
@@ -244,19 +263,21 @@ Quarterly or semi-annual tasks include professional inspection to identify issue
 
 Annual professional maintenance should include deep cleaning, inspection of grout lines, and assessment of the overall condition. This is also the time to address any minor issues before they become major problems.
 
-For professional marble maintenance in El Gouna, contact Sunny Luxury Services. We provide comprehensive care programs tailored to your specific needs.`,
-    createdAt: new Date('2026-07-12'),
+For professional marble maintenance in El Gouna, contact new city Luxury Services. We provide comprehensive care programs tailored to your specific needs.`,
+    createdAt: new Date("2026-07-12"),
   },
   {
-    slug: 'marble-care-tips',
-    title: 'Marble Care Tips: Expert Advice for Long-Lasting Beauty',
-    excerpt: 'Expert marble care tips from professionals. Learn dos and donts, preventive measures, and insider secrets for maintaining beautiful marble surfaces.',
-    seoDescription: 'Expert marble care tips for maintaining beautiful marble surfaces in El Gouna. Learn professional dos and donts, preventive measures, and insider secrets.',
+    slug: "marble-care-tips",
+    title: "Marble Care Tips: Expert Advice for Long-Lasting Beauty",
+    excerpt:
+      "Expert marble care tips from professionals. Learn dos and donts, preventive measures, and insider secrets for maintaining beautiful marble surfaces.",
+    seoDescription:
+      "Expert marble care tips for maintaining beautiful marble surfaces in El Gouna. Learn professional dos and donts, preventive measures, and insider secrets.",
     keywords: [
-      'marble care tips',
-      'marble dos and donts',
-      'marble preservation tips',
-      'marble maintenance advice',
+      "marble care tips",
+      "marble dos and donts",
+      "marble preservation tips",
+      "marble maintenance advice",
     ],
     content: `Professional marble care goes beyond basic cleaning—these expert tips help maintain your marble's beauty and prevent common problems that require expensive restoration.
 
@@ -270,19 +291,20 @@ DON'T place hot pots or pans directly on marble—always use trivets. DON't drag
 
 Preventive measures include using entrance mats to reduce tracked-in sand and grit. Place area rugs in high-traffic zones. Use felt pads on furniture legs. Consider using runners in hallways and main traffic paths.
 
-For professional marble care and restoration in El Gouna, contact Sunny Luxury Services. Our experts can assess your marble and provide customized care recommendations.`,
-    createdAt: new Date('2026-07-14'),
+For professional marble care and restoration in El Gouna, contact new city Luxury Services. Our experts can assess your marble and provide customized care recommendations.`,
+    createdAt: new Date("2026-07-14"),
   },
   {
-    slug: 'top-5-luxury-chalets-for-sale',
-    title: 'Top 5 Luxury Chalets for Sale – Investment Guide',
-    excerpt: 'A curated list of premium chalets with stunning views and high ROI.',
-    createdAt: new Date('2026-06-10'),
+    slug: "top-5-luxury-chalets-for-sale",
+    title: "Top 5 Luxury Chalets for Sale – Investment Guide",
+    excerpt:
+      "A curated list of premium chalets with stunning views and high ROI.",
+    createdAt: new Date("2026-06-10"),
   },
   {
-    slug: 'airport-transfer-guide',
-    title: 'Stress-Free Airport Transfers: Everything You Need to Know',
-    excerpt: 'From booking to drop-off, how our return transfer service works.',
-    createdAt: new Date('2026-07-01'),
+    slug: "airport-transfer-guide",
+    title: "Stress-Free Airport Transfers: Everything You Need to Know",
+    excerpt: "From booking to drop-off, how our return transfer service works.",
+    createdAt: new Date("2026-07-01"),
   },
 ];

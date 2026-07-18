@@ -1,7 +1,7 @@
 import { services } from "@/lib/services";
 import { blogPosts } from "@/lib/blog";
 
-const BASE_URL = "https://sunnyelgouna.vercel.app";
+const BASE_URL = "https://new cityelgouna.vercel.app";
 
 export default async function sitemap() {
   const staticPages = [

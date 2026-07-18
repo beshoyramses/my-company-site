@@ -1,7 +1,7 @@
 export const SITE_URL = "https://g-cribs.com";
 
 export const BUSINESS = {
-  name: "Sunny Luxury Services",
+  name: "new city Luxury Services",
   alternateName: "NEXUS Luxury Services",
   url: SITE_URL,
   email: "minanazer25@gmail.com",
